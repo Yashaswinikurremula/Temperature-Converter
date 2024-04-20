@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #86469C;
+    color: #fff;
+}
+
+.converter-container {
+    margin: 50px auto;
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.converter-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.converter-container input[type="number"],
+.converter-container select {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.converter-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #86469C;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Added spacing below the button */
+}
+
+.converter-container button:hover {
+    background-color: #86469C;
+}
+
+.result-label {
+    margin-top: 20px; /* Added margin to separate result label from button */
+    font-weight: bold;
+}
+
+.result {
+    margin-top: 10px; /* Adjusted margin for result */
+    font-size: 18px;
+}
